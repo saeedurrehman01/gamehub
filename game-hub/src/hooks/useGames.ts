@@ -42,7 +42,7 @@ const useGames = () => {
       });
     return () => controller.abort();
   }, []);
-  return { games, error, isLoading }
+  return { games, error, isLoading };
 };
 
 export default useGames;
